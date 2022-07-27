@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <title>Sanrio Milk Vending Machine</title>
+</head>
+<body>
+    <div class="parent">
+        <img class="image1" src="base.png" height="651px" width="437px"/>
+        <input type="image" onclick="buyBMilk()" name="Banana Milk" class="button2" src="button1.png" height="25.4px" width="92px"/>
+        <input type="image" onclick="buySMilk()" name="Strawberry Milk" class="button3" src="button1.png" height="25.4px" width="92px"/>
+        <input type="image" onclick="buyTMilk()" name="Taro Milk" class="button4" src="button1.png" height="25.4px" width="92px"/>
+        <input type="image" onclick="buyPMilk()" name="Plain Milk" class="button5" src="button1.png" height="25.4px" width="92px"/>
+        <input type="image" name="tray" class="button6" src="tray.png" height="52.5px" width="316.5px"/>
+
+                     <!-- User Money -->
+                     <h3>Total $ In</h3>
+                     <div id="moneyDisplay" class="col-md-2" style="border: solid; position:relative; left:15px; height: 29px; width: 73%;">0.00</div>
+                     <input type="image" class="dollar"
+                     <button id="addDollar" class="button" style="margin:15px;height:50px;width:100px" onclick="getMoney('dollar')">Add Dollar</button>
+                     <button id="addQuarter" class="button" style="margin:15px;height:50px;width:100px" onclick="getMoney('quarter')">Add Quarter</button>
+    </div>
+</body>
+</html>
